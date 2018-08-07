@@ -1,0 +1,102 @@
+<!--==========================
+  Contact Section
+============================-->
+<section id="contact">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Let's Get Started </h3>
+      <div class="section-title-divider"></div>
+        <p class="section-description">Drop us a line and see how we can transform your online presence</p>
+      </div>
+      </div>
+    <div class="row">
+      <div class="col-md-8 col-md-push-2">
+        <div class="form">
+          <%= raw do_shortcode('[forms slug=contact-form]')%>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==========================
+  Footer Section
+============================-->
+<div id="footer" class="footer">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="box left">
+        <h3>Ready To Collaborate?</h3>
+          <div class="text-center"><button id="contact-button-bottom">CONTACT US</button></div>
+      </div>
+    </div>
+  
+  <div class="col-sm-2">
+    <div class="grid-item">
+        <h5>Contact Details</h5>
+      <div class="footer-contact-info">
+          <a>info@crubiks.com</a>      
+      <div class="contact-item">
+          <h5>Canada</h5>
+          <a>+1 (604) 396-2889</a>
+      </div>
+      <div class="contact-item">
+          <h5>Indonesia</h5>
+          <a>+62 (811) 750-899</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">                 
+    <div class="grid-item2">
+      <h5>Our Startup</h5>
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Our Cru</a>
+          </li>
+          <li>  
+            <a href="http://www.crubiks.com/services">Services</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>  
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Corporate Social Responsibility</a>
+          </li>
+      </ul>
+    </div>
+  </div>                
+  <div class="col-sm-3">
+    <div class="footer-icons">
+      <a href="#"><i class="social fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="#"><i class="social fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="#"><i class="social fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="social fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  </div>
+  <div class="container2">
+    <div class="box3">
+      <h5>Copyright &#169 2017 crubiks.Inc</h5>
+    </div>     
+  </div>        
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+    $("#contact-button-bottom").click(function(){
+        $("#contact").slideToggle(1000);
+    });
+});
+</script>
+
+           

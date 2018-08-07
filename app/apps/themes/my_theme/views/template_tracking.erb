@@ -1,0 +1,56 @@
+<br>
+<br>
+<br>
+
+<div class="tracking - image">
+<img src="https://www.dreamstime.com/royalty-free-stock-photography-tracking-package-concept-illustration-design-over-white-background-image33238807" class = "Img">
+</div>
+
+<div id = "cssmenu">
+<ul>
+    <li><a href = " https://infinite-coast-84.herokuapp.com/tracking ">tracking</a></li>
+    <li><a href = "https://infinite-coast-84.herokuapp.com/services  ">Services</a></li>
+</ul>
+</div>
+
+<div id = "dropdownbtn">
+    <div id = "dropdownline">
+    <div id = "dropdown">
+    <button onclick = "dropFunction()" class = "dropbtn"> tracking </button>
+        <div id = "meDropDown" class = "dropDown-content">
+            <a href = "https://infinite-coast-84.herokuapp.com/welcome" >welcome</a>
+            <a href = "https://infinite-coast-84.herokuapp.com/services">Services</a>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+
+function dropFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<br>
+<br>
+
+
+
+
+
+
