@@ -1,3 +1,15 @@
+PATH
+  remote: apps/plugins/camaleon_google_analytic
+  specs:
+    camaleon_google_analytic (0.0.3)
+      rails (>= 4.2)
+
+PATH
+  remote: apps/plugins/my_plugin
+  specs:
+    my_plugin (0.1.0)
+      camaleon_cms (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -263,12 +275,14 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   camaleon_cms (>= 2.4.5)
+  camaleon_google_analytic!
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)
   draper (~> 3)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  my_plugin!
   pg (~> 0.21.0.pre.x64.pre.mingw32)
   puma (~> 2.14.0)
   rails (~> 5.2.0)
